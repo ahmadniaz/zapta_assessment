@@ -15,7 +15,7 @@ const Contact = () => {
         </Col>
 
         <Col lg={10} className=" mt-5 contact_section_container">
-          <Col lg={4} sm={12} className="contat_info_container">
+          <Col lg={4} md={12} sm={12} className="contat_info_container">
             <div className="info">
               <img src={location} alt="Location" />
               <p>
@@ -39,7 +39,7 @@ const Contact = () => {
               <p>We Will get back to you within 24 hours. Or Call us Now</p>
             </div>
           </Col>
-          <Col lg={8} sm={12} className="contact_form_container">
+          <Col lg={8} md={12} sm={12} className="contact_form_container">
             <form>
               <Row className="name_field">
                 <Col lg={6}>

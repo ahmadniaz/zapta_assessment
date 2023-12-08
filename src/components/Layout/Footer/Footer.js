@@ -14,7 +14,7 @@ const Footer = () => {
   return (
     <>
       <Row className="footer_container_main">
-        <Col lg={10} className="footer_links_container">
+        <Col lg={10} md={12} sm={12} className="footer_links_container">
           <Col lg={3} md={6} sm={12} className="footer_first_sec">
             <img src={logo} alt="LOGO" width="97px" />
             <p>
@@ -72,10 +72,10 @@ const Footer = () => {
         <hr style={{ border: "1px solid #C9C9C9", width: "90%" }}></hr>
         <Row className="bottom_sec">
           <Col lg={10} className="second_footer_container">
-            <Col lg={6}>
+            <Col lg={6} sm={12}>
               <p>All rights reserved</p>
             </Col>
-            <Col lg={6} className="icons_container">
+            <Col lg={6} sm={12} className="icons_container">
               <div>
                 <img src={insta} alt="INSTA" width="26px" />
                 <img src={fb} alt="Facebook" width="26px" />

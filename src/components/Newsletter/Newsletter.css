@@ -53,3 +53,27 @@
 .newsletter_input {
   position: relative;
 }
+
+@media only screen and (max-width: 576px) {
+  .newsletter_container {
+    display: block !important;
+    text-align: -webkit-center !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .newsletter_container {
+    display: block !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .newsletter_container {
+    display: block !important;
+    text-align: center !important;
+    margin-top: 20px !important;
+  }
+}

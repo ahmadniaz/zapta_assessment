@@ -105,3 +105,14 @@
     margin-top: 20px;
   }
 }
+
+@media only screen and (max-width: 990px) {
+  .contact_section_container {
+    display: block !important;
+    text-align: -webkit-center !important;
+  }
+
+  .contact_form_container {
+    margin-top: 20px;
+  }
+}

@@ -49,7 +49,6 @@
   line-height: 15px;
   color: white;
   margin-top: 10px;
-  text-align: center;
 }
 
 .second_footer_container {
@@ -78,4 +77,49 @@ hr {
 
 .icons_container {
   justify-content: end;
+}
+
+@media only screen and (max-width: 576px) {
+  .footer_links_container {
+    display: block;
+    text-align: -webkit-center;
+    margin-top: 20px;
+  }
+
+  .second_footer_container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .footer_info {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .footer_links_container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .second_footer_container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .footer_links_container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .second_footer_container {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
