@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Input, Row } from "reactstrap";
+import { Col, Row } from "reactstrap";
 import send from "../../assets/icons/send.svg";
 import "./Newsletter.css";
 
