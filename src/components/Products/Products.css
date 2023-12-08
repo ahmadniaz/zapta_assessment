@@ -1,0 +1,122 @@
+.products_heading h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+}
+
+.left_container {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: auto !important;
+}
+
+.right_container {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  width: auto !important;
+}
+
+.product_content {
+  padding: 15px;
+}
+
+.products_heading h2::after {
+  content: "";
+  position: absolute;
+  bottom: -20px; /* Adjust distance from text */
+  right: 45%;
+  width: 120px;
+  border-bottom: 4px solid #86be3f; /* Add a solid black border bottom */
+}
+
+.products_container {
+  display: flex;
+  margin: 0 auto !important;
+  justify-content: space-evenly;
+}
+
+.product1_desc1 {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.product1_desc1 h4 {
+  color: #86be3f;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.product1_desc1 ul {
+  padding-left: 20px;
+}
+.product1_desc1 ul li {
+  list-style-type: disclosure-closed;
+  padding-left: 20px;
+  color: #666666;
+}
+
+.product1_icons {
+  display: flex;
+}
+
+.product1_icons p {
+  color: #666666;
+}
+
+.product1_desc2 ul {
+  padding-left: 20px;
+}
+.product1_desc2 ul li {
+  padding-left: 20px;
+  color: #666666;
+}
+
+@media only screen and (max-width: 576px) {
+  .products_container {
+    display: block;
+  }
+
+  .right_container {
+    margin-top: 30px;
+  }
+
+  .right_container .product2_img {
+    text-align: center;
+  }
+  .left_container .product1_img {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .products_container {
+    display: block;
+  }
+
+  .right_container {
+    margin-top: 30px;
+  }
+
+  .right_container .product2_img {
+    text-align: center;
+  }
+  .left_container .product1_img {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .products_container {
+    display: block;
+  }
+
+  .right_container {
+    margin-top: 30px;
+  }
+
+  .left_container .product1_img {
+    text-align: center;
+  }
+  .right_container .product2_img {
+    text-align: center;
+  }
+}

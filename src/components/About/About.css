@@ -1,0 +1,190 @@
+.text-container h2 {
+  font-size: 36px;
+}
+
+.text-container h2 {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.text-container h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 42%;
+  top: 0px;
+  width: 16%;
+  border-bottom: 4px solid #86be3f;
+}
+
+.card_container {
+  width: 90% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.user_card {
+  background-color: #f8f8f8;
+  width: 350px !important;
+  height: 300px !important;
+  padding: 15px;
+}
+
+.user_card img {
+  position: relative;
+  top: -85px;
+}
+
+.user_card p {
+  color: #666666;
+}
+
+.card_text {
+  position: relative;
+  top: -70px;
+}
+
+.qoute_container {
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+  font-weight: 500;
+}
+
+blockquote {
+  margin-bottom: 0 !important;
+}
+
+blockquote::before {
+  content: open-quote;
+  font-size: 50px;
+  color: #9a9a9a;
+  display: flex;
+}
+
+blockquote::after {
+  content: close-quote;
+  font-size: 50px;
+  color: #9a9a9a;
+  display: flex;
+  justify-content: end;
+}
+
+.qoute p {
+  color: #86be3f;
+}
+
+.third_container {
+  width: 95%;
+  margin: 0 auto !important;
+}
+
+.third_container .images_col {
+  background: url("../../assets/circle.png");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.first_img .pattern {
+  position: relative;
+  top: -180px;
+  left: 56px;
+}
+
+.second_img_container {
+  text-align: center;
+}
+
+.second_img_container .pattern {
+  position: relative;
+  top: -214px;
+  left: -50px;
+  z-index: 1;
+}
+
+.images_col .solar_img {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -150px;
+  z-index: 10;
+}
+
+.info_col .pattern_container {
+  display: flex;
+  justify-content: end;
+}
+
+.text_container {
+  background: url("../../assets/circle-pattern.png");
+  background-position: right;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.text_container h3 {
+  color: #86be3f;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text_container h2 {
+  color: #363636;
+  font-size: 34px;
+  font-weight: 600;
+  position: relative;
+}
+
+.text_container h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust distance from text */
+  left: 0px;
+  width: 20%; /* Set the width of the border to cover 20% */
+  border-bottom: 4px solid #86be3f; /* Add a solid black border bottom */
+}
+
+.text_container p {
+  color: #666666;
+  font-weight: 400;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 576px) {
+  .user_card {
+    margin-top: 80px !important;
+  }
+  .first_img .pattern {
+    position: relative;
+    top: 40px;
+    left: -15px;
+  }
+
+  .second_img_container {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .user_card {
+    margin-top: 80px !important;
+  }
+  .second_img_container {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .second_img_container {
+    height: 150px;
+  }
+}
+
+@media only screen and (max-width: 1166px) {
+  .user_card {
+    margin-top: 80px !important;
+  }
+}

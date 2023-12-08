@@ -1,0 +1,27 @@
+.icons-color {
+  color: #86be3f;
+}
+
+.container {
+  max-width: 1200px !important;
+}
+
+.contact_container {
+  display: flex;
+}
+
+.container li {
+  list-style-type: none;
+  font-size: 18px;
+  font-family: "Poppins";
+}
+
+.container li:first-child {
+  color: #86be3f;
+}
+
+@media only screen and (max-width: 991px) {
+  .contact_container {
+    display: block !important;
+  }
+}

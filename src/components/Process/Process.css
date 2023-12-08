@@ -1,0 +1,107 @@
+.process_container_main {
+  display: block !important;
+  padding: 15px;
+  background: url("../../assets/process-bg.png");
+  position: relative;
+  z-index: 1;
+}
+
+.benefits_heading h2 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  position: relative;
+  padding: 15px;
+}
+
+.benefits_heading h2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust distance from text */
+  right: 45%;
+  width: 120px;
+  border-bottom: 4px solid #86be3f; /* Add a solid black border bottom */
+}
+
+.benefits_card_container {
+  margin: 0 auto;
+  justify-content: space-around;
+  display: flex;
+  position: relative;
+}
+
+/* .process_container {
+ 
+  
+} */
+
+.process_card {
+  text-align: center;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 15px;
+  position: relative;
+  z-index: 10;
+  height: 260px;
+}
+
+.process_card h4 {
+  margin-top: 10px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.process_card p {
+  color: rgba(54, 54, 54, 1);
+  line-height: 26px;
+  width: 240px;
+}
+.pic-1 {
+  background: url("../../assets/step1.png");
+  background-repeat: no-repeat;
+}
+
+.pic-2 {
+  background: url("../../assets/step2.png");
+  background-repeat: no-repeat;
+}
+
+.pic-3 {
+  background: url("../../assets/step3.png");
+  background-repeat: no-repeat;
+}
+
+.pic-4 {
+  background: url("../../assets/step4.png");
+  background-repeat: no-repeat;
+}
+
+/* 
+
+
+ */
+
+/*    
+ICONS CARD
+*/
+
+@media only screen and (max-width: 576px) {
+  .benefits_card_container {
+    display: block;
+    text-align: -webkit-center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .benefits_card_container {
+    display: block;
+    text-align: -webkit-center;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .benefits_card_container {
+    display: block;
+    text-align: -webkit-center;
+  }
+}
